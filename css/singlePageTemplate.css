@@ -2,7 +2,7 @@
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color: #f2f2f2;
+	background-color: #F9F9F9;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -16,14 +16,14 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 1000px;
-	background-color: #FFFFFF;
+	background-color: #000000;
 }
 /* Navigation */
 header {
 	width: 100%;
 	height: 5%;
 	background-color: #000000;
-	border-bottom: 1px solid #2C9AB7;
+	border-bottom: 1px solid #000000;
 }
 .logo {
 	color: #fff;
@@ -60,7 +60,7 @@ ul li a {
 	text-decoration: none;
 }
 ul li:hover a {
-	color: #2C9AB7;
+	color: #0A85FF;
 }
 .hero_header {
 	color: #FFFFFF;
@@ -70,20 +70,21 @@ ul li:hover a {
 	margin-bottom: 0px;
 	margin-left: 0px;
 	letter-spacing: 4px;
+	font-size: 50px;
 }
 /* Hero Section */
 .hero {
-	background-color: #B3B3B3;
+	background-color: #FAF6F6;
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 .light {
 	font-weight: bold;
-	color: #717070;
+	color: #000000;
 }
 .tagline {
 	text-align: center;
-	color: #FFFFFF;
+	color: #080708;
 	margin-top: 4px;
 	font-weight: lighter;
 	text-transform: uppercase;
@@ -98,17 +99,16 @@ ul li:hover a {
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px;
-	color: #A3A3A3;
+	color: #F9F3F3;
 }
 .about {
 	padding-left: 25px;
 	padding-right: 25px;
-	padding-top: 35px;
+	padding-top: 0px;
 	display: inline-block;
-	background-color: #FFFFFF;
+	background-color: #010101;
 	margin-top: 0px;
 }
-
 /* Stats Gallery */
 .stats {
 	color: #717070;
@@ -149,14 +149,14 @@ ul li:hover a {
 /* Parallax Section */
 .banner {
 	background-color: #2D9AB7;
-	background-image: url("../images/abstract.JPG");
+	background-image: url("../images/butts.png");
 	height: 400px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 .parallax {
-	color: #000000;
+	color: #FFFFFF;
 	text-align: right;
 	padding-right: 100px;
 	padding-top: 110px;
@@ -164,7 +164,7 @@ ul li:hover a {
 	margin-top: 0px;
 }
 .parallax_description {
-	color: #000000;
+	color: #FFFFFF;
 	text-align: right;
 	padding-right: 100px;
 	width: 30%;
@@ -188,12 +188,12 @@ footer {
 	float: left;
 }
 footer .footer_column h3 {
-	color: #B3B3B3;
+	color: #060606;
 	text-align: center;
 }
 footer .footer_column p {
-	color: #717070;
-	background-color: #FFFFFF;
+	color: #000000;
+	background-color: #FFF0FFF;
 }
 .cards {
 	width: 100%;
@@ -235,9 +235,19 @@ footer .footer_column p {
 	color: #C4C4C4;
 	cursor: pointer;
 }
-
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
 .footer_banner {
-	background-color: #B3B3B3;
+	background-color: #000000;
 	padding-top: 60px;
 	padding-bottom: 60PX;
 	margin-bottom: 0px;
